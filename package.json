@@ -1,6 +1,6 @@
 {
     "name": "grapesjs-tailwind",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "Grapesjs Tailwind",
     "main": "dist/grapesjs-tailwind.min.js",
     "repository": {
@@ -11,6 +11,10 @@
         "start": "grapesjs-cli serve",
         "build": "grapesjs-cli build",
         "bump": "npm version patch -m 'Bump v%s'"
+    },
+    "engines": {
+        "node": "16.x",
+        "npm": ">=8.0.0"
     },
     "keywords": [
         "grapesjs",
